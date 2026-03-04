@@ -1,0 +1,189 @@
+{
+  "data": {
+    "nodeRooms": {
+      "__typename": "NodeRoomConnection",
+      "nodes": [
+        {
+          "__typename": "NodeRoom",
+          "id": "room-presidential-suite",
+          "title": "Presidential Suite",
+          "path": "/rooms/presidential-suite",
+          "body": {
+            "processed": "<p>Our flagship Presidential Suite is the pinnacle of luxury accommodation. Spanning an impressive 2,500 square feet, this magnificent suite features a grand living room with panoramic city views, a private dining area, a master bedroom with king-size bed, and a lavish marble bathroom with a soaking tub and walk-in rain shower.</p><h2>Suite Features</h2><ul><li>Panoramic floor-to-ceiling windows</li><li>Separate living and dining areas</li><li>Butler service and private check-in</li><li>Premium minibar and Nespresso machine</li><li>Evening turndown with luxury amenities</li></ul>",
+            "summary": "Our flagship Presidential Suite is the pinnacle of luxury accommodation. Spanning an impressive 2,500 square feet, this magnificent suite features a grand living room with panoramic city views, a priv"
+          },
+          "roomType": [
+            {
+              "id": "suite",
+              "name": "suite"
+            }
+          ],
+          "pricePerNight": "From $899",
+          "capacity": 4,
+          "sqft": 2500,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+            "alt": "Presidential Suite",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeRoom",
+          "id": "room-deluxe-king",
+          "title": "Deluxe King Room",
+          "path": "/rooms/deluxe-king",
+          "body": {
+            "processed": "<p>The Deluxe King Room offers sophisticated comfort with contemporary design. Featuring a plush king-size bed with premium linens, a spacious work area, and a luxurious marble bathroom, this room is perfect for both business and leisure travelers.</p><h2>Room Features</h2><ul><li>King-size bed with pillow-top mattress</li><li>55-inch smart TV</li><li>Complimentary high-speed Wi-Fi</li><li>Marble bathroom with rain shower</li><li>City or garden views</li></ul>",
+            "summary": "The Deluxe King Room offers sophisticated comfort with contemporary design. Featuring a plush king-size bed with premium linens, a spacious work area, and a luxurious marble bathroom, this room is per"
+          },
+          "roomType": [
+            {
+              "id": "deluxe",
+              "name": "deluxe"
+            }
+          ],
+          "pricePerNight": "From $349",
+          "capacity": 2,
+          "sqft": 550,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+            "alt": "Deluxe King Room",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeRoom",
+          "id": "room-garden-suite",
+          "title": "Garden Suite",
+          "path": "/rooms/garden-suite",
+          "body": {
+            "processed": "<p>Escape to tranquility in our Garden Suite, where lush greenery meets elegant design. This spacious suite features a separate living area, a private balcony overlooking our manicured gardens, and a spa-inspired bathroom.</p><h2>Suite Features</h2><ul><li>Private garden-view balcony</li><li>Separate living room and bedroom</li><li>Soaking tub and walk-in shower</li><li>Complimentary welcome amenities</li><li>Access to Garden Lounge</li></ul>",
+            "summary": "Escape to tranquility in our Garden Suite, where lush greenery meets elegant design. This spacious suite features a separate living area, a private balcony overlooking our manicured gardens, and a spa"
+          },
+          "roomType": [
+            {
+              "id": "suite",
+              "name": "suite"
+            }
+          ],
+          "pricePerNight": "From $549",
+          "capacity": 3,
+          "sqft": 850,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+            "alt": "Garden Suite",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeRoom",
+          "id": "room-classic-double",
+          "title": "Classic Double Room",
+          "path": "/rooms/classic-double",
+          "body": {
+            "processed": "<p>Our Classic Double Room provides a comfortable and welcoming retreat with all the essential amenities. Featuring two queen-size beds, it is ideal for families or friends traveling together.</p><h2>Room Features</h2><ul><li>Two queen-size beds</li><li>42-inch smart TV</li><li>Complimentary Wi-Fi</li><li>En-suite bathroom with bathtub</li><li>In-room safe and minibar</li></ul>",
+            "summary": "Our Classic Double Room provides a comfortable and welcoming retreat with all the essential amenities. Featuring two queen-size beds, it is ideal for families or friends traveling together.Room Featur"
+          },
+          "roomType": [
+            {
+              "id": "standard",
+              "name": "standard"
+            }
+          ],
+          "pricePerNight": "From $249",
+          "capacity": 4,
+          "sqft": 400,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+            "alt": "Classic Double Room",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

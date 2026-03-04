@@ -1,0 +1,123 @@
+{
+  "data": {
+    "nodeAttractions": {
+      "__typename": "NodeAttractionConnection",
+      "nodes": [
+        {
+          "__typename": "NodeAttraction",
+          "id": "attraction-museum",
+          "title": "National Art Museum",
+          "path": "/attractions/national-art-museum",
+          "body": {
+            "processed": "<p>One of the country's premier art institutions, the National Art Museum houses an extraordinary collection spanning centuries of artistic achievement. From Renaissance masterpieces to contemporary installations, visitors can explore over 50 galleries of world-class art.</p><p>Hotel guests enjoy complimentary admission with their room key. Ask our concierge about guided tour options and current exhibitions.</p>",
+            "summary": "One of the country's premier art institutions, the National Art Museum houses an extraordinary collection spanning centuries of artistic achievement. From Renaissance masterpieces to contemporary inst"
+          },
+          "distance": "0.3 miles",
+          "websiteUrl": "https://nationalartmuseum.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=800&q=80",
+            "alt": "National Art Museum",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeAttraction",
+          "id": "attraction-botanical",
+          "title": "City Botanical Gardens",
+          "path": "/attractions/botanical-gardens",
+          "body": {
+            "processed": "<p>Escape into 250 acres of stunning botanical beauty at the City Botanical Gardens. Featuring themed gardens from around the world, a tropical conservatory, and seasonal flower shows, it's a must-visit destination for nature lovers.</p><p>Just a short walk from the hotel, the gardens offer a peaceful retreat from the urban bustle. Guided nature walks are available daily.</p>",
+            "summary": "Escape into 250 acres of stunning botanical beauty at the City Botanical Gardens. Featuring themed gardens from around the world, a tropical conservatory, and seasonal flower shows, it's a must-visit "
+          },
+          "distance": "0.5 miles",
+          "websiteUrl": "https://citybotanical.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
+            "alt": "City Botanical Gardens",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeAttraction",
+          "id": "attraction-theater",
+          "title": "The Grand Theater",
+          "path": "/attractions/grand-theater",
+          "body": {
+            "processed": "<p>A landmark of performing arts, The Grand Theater hosts world-class ballet, opera, symphony performances, and Broadway shows throughout the year. The stunning Beaux-Arts building is an architectural marvel in its own right.</p><p>Our concierge can arrange premium seating and pre-show dining packages. VIP backstage tours available upon request for hotel guests.</p>",
+            "summary": "A landmark of performing arts, The Grand Theater hosts world-class ballet, opera, symphony performances, and Broadway shows throughout the year. The stunning Beaux-Arts building is an architectural ma"
+          },
+          "distance": "0.8 miles",
+          "websiteUrl": "https://grandtheater.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503095396549-807759245b35?w=800&q=80",
+            "alt": "The Grand Theater",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503095396549-807759245b35?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503095396549-807759245b35?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503095396549-807759245b35?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

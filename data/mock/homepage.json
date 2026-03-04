@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to The Grand Meridian Hotel",
+          "path": "/homepage",
+          "heroTitle": "Experience Timeless Elegance",
+          "heroSubtitle": "Where Luxury Meets Comfort",
+          "heroDescription": {
+            "processed": "<p>Nestled in the heart of the city, The Grand Meridian Hotel offers an unparalleled blend of classic sophistication and modern comfort. From our meticulously appointed rooms to our world-class dining, every detail is crafted for an extraordinary stay.</p>",
+            "summary": "Nestled in the heart of the city, The Grand Meridian Hotel offers an unparalleled blend of classic sophistication and modern comfort. From our meticulously appointed rooms to our world-class dining, e"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-rooms",
+              "title": "",
+              "number": "200+",
+              "label": "Luxury Rooms & Suites"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-restaurants",
+              "title": "",
+              "number": "5",
+              "label": "Restaurants & Bars"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "95+",
+              "label": "Years of Excellence"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-rating",
+              "title": "",
+              "number": "4.9",
+              "label": "Guest Rating"
+            }
+          ],
+          "featuredRoomsTitle": "Our Finest Accommodations",
+          "ctaTitle": "Ready to Experience The Grand Meridian?",
+          "ctaDescription": {
+            "processed": "<p>Whether you're planning a romantic getaway, a family vacation, or a corporate retreat, our dedicated team is here to create unforgettable moments.</p>",
+            "summary": "Whether you're planning a romantic getaway, a family vacation, or a corporate retreat, our dedicated team is here to create unforgettable moments."
+          },
+          "ctaPrimary": "Book Your Stay",
+          "ctaSecondary": "Contact Concierge"
+        }
+      ]
+    }
+  }
+}

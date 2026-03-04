@@ -1,0 +1,808 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to The Grand Meridian Hotel",
+          "path": "/homepage",
+          "heroTitle": "Experience Timeless Elegance",
+          "heroSubtitle": "Where Luxury Meets Comfort",
+          "heroDescription": {
+            "processed": "<p>Nestled in the heart of the city, The Grand Meridian Hotel offers an unparalleled blend of classic sophistication and modern comfort. From our meticulously appointed rooms to our world-class dining, every detail is crafted for an extraordinary stay.</p>",
+            "summary": "Nestled in the heart of the city, The Grand Meridian Hotel offers an unparalleled blend of classic sophistication and modern comfort. From our meticulously appointed rooms to our world-class dining, e"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-rooms",
+              "title": "",
+              "number": "200+",
+              "label": "Luxury Rooms & Suites"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-restaurants",
+              "title": "",
+              "number": "5",
+              "label": "Restaurants & Bars"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "95+",
+              "label": "Years of Excellence"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-rating",
+              "title": "",
+              "number": "4.9",
+              "label": "Guest Rating"
+            }
+          ],
+          "featuredRoomsTitle": "Our Finest Accommodations",
+          "ctaTitle": "Ready to Experience The Grand Meridian?",
+          "ctaDescription": {
+            "processed": "<p>Whether you're planning a romantic getaway, a family vacation, or a corporate retreat, our dedicated team is here to create unforgettable moments.</p>",
+            "summary": "Whether you're planning a romantic getaway, a family vacation, or a corporate retreat, our dedicated team is here to create unforgettable moments."
+          },
+          "ctaPrimary": "Book Your Stay",
+          "ctaSecondary": "Contact Concierge"
+        }
+      }
+    }
+  },
+  "/rooms/presidential-suite": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeRoom",
+          "id": "room-presidential-suite",
+          "title": "Presidential Suite",
+          "path": "/rooms/presidential-suite",
+          "body": {
+            "processed": "<p>Our flagship Presidential Suite is the pinnacle of luxury accommodation. Spanning an impressive 2,500 square feet, this magnificent suite features a grand living room with panoramic city views, a private dining area, a master bedroom with king-size bed, and a lavish marble bathroom with a soaking tub and walk-in rain shower.</p><h2>Suite Features</h2><ul><li>Panoramic floor-to-ceiling windows</li><li>Separate living and dining areas</li><li>Butler service and private check-in</li><li>Premium minibar and Nespresso machine</li><li>Evening turndown with luxury amenities</li></ul>",
+            "summary": "Our flagship Presidential Suite is the pinnacle of luxury accommodation. Spanning an impressive 2,500 square feet, this magnificent suite features a grand living room with panoramic city views, a priv"
+          },
+          "roomType": [
+            {
+              "id": "suite",
+              "name": "suite"
+            }
+          ],
+          "pricePerNight": "From $899",
+          "capacity": 4,
+          "sqft": 2500,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+            "alt": "Presidential Suite",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/rooms/deluxe-king": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeRoom",
+          "id": "room-deluxe-king",
+          "title": "Deluxe King Room",
+          "path": "/rooms/deluxe-king",
+          "body": {
+            "processed": "<p>The Deluxe King Room offers sophisticated comfort with contemporary design. Featuring a plush king-size bed with premium linens, a spacious work area, and a luxurious marble bathroom, this room is perfect for both business and leisure travelers.</p><h2>Room Features</h2><ul><li>King-size bed with pillow-top mattress</li><li>55-inch smart TV</li><li>Complimentary high-speed Wi-Fi</li><li>Marble bathroom with rain shower</li><li>City or garden views</li></ul>",
+            "summary": "The Deluxe King Room offers sophisticated comfort with contemporary design. Featuring a plush king-size bed with premium linens, a spacious work area, and a luxurious marble bathroom, this room is per"
+          },
+          "roomType": [
+            {
+              "id": "deluxe",
+              "name": "deluxe"
+            }
+          ],
+          "pricePerNight": "From $349",
+          "capacity": 2,
+          "sqft": 550,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+            "alt": "Deluxe King Room",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/rooms/garden-suite": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeRoom",
+          "id": "room-garden-suite",
+          "title": "Garden Suite",
+          "path": "/rooms/garden-suite",
+          "body": {
+            "processed": "<p>Escape to tranquility in our Garden Suite, where lush greenery meets elegant design. This spacious suite features a separate living area, a private balcony overlooking our manicured gardens, and a spa-inspired bathroom.</p><h2>Suite Features</h2><ul><li>Private garden-view balcony</li><li>Separate living room and bedroom</li><li>Soaking tub and walk-in shower</li><li>Complimentary welcome amenities</li><li>Access to Garden Lounge</li></ul>",
+            "summary": "Escape to tranquility in our Garden Suite, where lush greenery meets elegant design. This spacious suite features a separate living area, a private balcony overlooking our manicured gardens, and a spa"
+          },
+          "roomType": [
+            {
+              "id": "suite",
+              "name": "suite"
+            }
+          ],
+          "pricePerNight": "From $549",
+          "capacity": 3,
+          "sqft": 850,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+            "alt": "Garden Suite",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/rooms/classic-double": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeRoom",
+          "id": "room-classic-double",
+          "title": "Classic Double Room",
+          "path": "/rooms/classic-double",
+          "body": {
+            "processed": "<p>Our Classic Double Room provides a comfortable and welcoming retreat with all the essential amenities. Featuring two queen-size beds, it is ideal for families or friends traveling together.</p><h2>Room Features</h2><ul><li>Two queen-size beds</li><li>42-inch smart TV</li><li>Complimentary Wi-Fi</li><li>En-suite bathroom with bathtub</li><li>In-room safe and minibar</li></ul>",
+            "summary": "Our Classic Double Room provides a comfortable and welcoming retreat with all the essential amenities. Featuring two queen-size beds, it is ideal for families or friends traveling together.Room Featur"
+          },
+          "roomType": [
+            {
+              "id": "standard",
+              "name": "standard"
+            }
+          ],
+          "pricePerNight": "From $249",
+          "capacity": 4,
+          "sqft": 400,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+            "alt": "Classic Double Room",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/amenities/spa-wellness-center": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAmenity",
+          "id": "amenity-spa",
+          "title": "Spa & Wellness Center",
+          "path": "/amenities/spa-wellness-center",
+          "body": {
+            "processed": "<p>Immerse yourself in relaxation at our award-winning spa. Offering a full range of treatments inspired by ancient healing traditions and modern wellness techniques, our spa is a sanctuary for mind, body, and spirit.</p><h2>Treatments</h2><ul><li>Swedish and deep tissue massage</li><li>Aromatherapy and hot stone treatments</li><li>Facials and skin care rituals</li><li>Couples spa experiences</li></ul>",
+            "summary": "Immerse yourself in relaxation at our award-winning spa. Offering a full range of treatments inspired by ancient healing traditions and modern wellness techniques, our spa is a sanctuary for mind, bod"
+          },
+          "amenityCategory": [
+            {
+              "id": "wellness",
+              "name": "wellness"
+            }
+          ],
+          "hours": "7:00 AM - 9:00 PM Daily",
+          "location": "Lower Level, West Wing",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80",
+            "alt": "Spa & Wellness Center",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/amenities/rooftop-pool": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAmenity",
+          "id": "amenity-pool",
+          "title": "Rooftop Infinity Pool",
+          "path": "/amenities/rooftop-pool",
+          "body": {
+            "processed": "<p>Take a dip in our stunning rooftop infinity pool with breathtaking panoramic views of the city skyline. The heated pool area includes private cabanas, poolside dining service, and a dedicated cocktail bar.</p><h2>Pool Features</h2><ul><li>Heated infinity-edge pool</li><li>Private cabanas available for rent</li><li>Poolside food and beverage service</li><li>Complimentary towels and sunscreen</li></ul>",
+            "summary": "Take a dip in our stunning rooftop infinity pool with breathtaking panoramic views of the city skyline. The heated pool area includes private cabanas, poolside dining service, and a dedicated cocktail"
+          },
+          "amenityCategory": [
+            {
+              "id": "recreation",
+              "name": "recreation"
+            }
+          ],
+          "hours": "6:00 AM - 10:00 PM Daily",
+          "location": "Rooftop, 25th Floor",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80",
+            "alt": "Rooftop Infinity Pool",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/amenities/meridian-restaurant": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAmenity",
+          "id": "amenity-restaurant",
+          "title": "The Meridian Restaurant",
+          "path": "/amenities/meridian-restaurant",
+          "body": {
+            "processed": "<p>Experience culinary excellence at The Meridian, our signature restaurant featuring farm-to-table cuisine crafted by award-winning Chef Isabella Moreno. The elegant dining room provides the perfect setting for an unforgettable meal.</p><h2>Dining Experiences</h2><ul><li>Seasonal tasting menus</li><li>Extensive wine collection</li><li>Private dining rooms available</li><li>Weekend brunch with live music</li></ul>",
+            "summary": "Experience culinary excellence at The Meridian, our signature restaurant featuring farm-to-table cuisine crafted by award-winning Chef Isabella Moreno. The elegant dining room provides the perfect set"
+          },
+          "amenityCategory": [
+            {
+              "id": "dining",
+              "name": "dining"
+            }
+          ],
+          "hours": "Breakfast 7-10 AM, Lunch 12-2 PM, Dinner 6-10 PM",
+          "location": "Ground Floor, Main Lobby",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+            "alt": "The Meridian Restaurant",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/amenities/fitness-center": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAmenity",
+          "id": "amenity-fitness",
+          "title": "Fitness Center",
+          "path": "/amenities/fitness-center",
+          "body": {
+            "processed": "<p>Stay active during your stay at our state-of-the-art fitness center. Equipped with the latest cardio and strength training equipment, along with a dedicated yoga studio and personal training services.</p><h2>Facilities</h2><ul><li>Technogym cardio and strength equipment</li><li>Dedicated yoga and pilates studio</li><li>Personal training sessions</li><li>Complimentary fitness classes</li></ul>",
+            "summary": "Stay active during your stay at our state-of-the-art fitness center. Equipped with the latest cardio and strength training equipment, along with a dedicated yoga studio and personal training services."
+          },
+          "amenityCategory": [
+            {
+              "id": "wellness",
+              "name": "wellness"
+            }
+          ],
+          "hours": "24 Hours",
+          "location": "Lower Level, East Wing",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
+            "alt": "Fitness Center",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/wine-pairing-dinner": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-wine-dinner",
+          "title": "Wine Pairing Dinner with Chef Isabella",
+          "path": "/events/wine-pairing-dinner",
+          "body": {
+            "processed": "<p>Join us for an exclusive five-course wine pairing dinner curated by Chef Isabella Moreno and our sommelier. Each course is thoughtfully paired with selections from renowned vineyards around the world.</p><h2>Menu Highlights</h2><ul><li>Amuse-bouche with sparkling wine</li><li>Pan-seared scallops with Chablis</li><li>Wagyu beef tenderloin with Barolo</li><li>Artisan cheese selection with Port</li><li>Chocolate souffl&eacute; with dessert wine</li></ul>",
+            "summary": "Join us for an exclusive five-course wine pairing dinner curated by Chef Isabella Moreno and our sommelier. Each course is thoughtfully paired with selections from renowned vineyards around the world."
+          },
+          "eventDate": {
+            "timestamp": 1776556800
+          },
+          "endDate": {
+            "timestamp": 1776567600
+          },
+          "location": "The Meridian Private Dining Room",
+          "eventType": [
+            {
+              "id": "dining",
+              "name": "dining"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80",
+            "alt": "Wine Pairing Dinner",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/jazz-on-the-rooftop": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-jazz-night",
+          "title": "Jazz on the Rooftop",
+          "path": "/events/jazz-on-the-rooftop",
+          "body": {
+            "processed": "<p>Experience an enchanting evening of live jazz on our rooftop terrace under the stars. Enjoy craft cocktails and light bites while our resident jazz quartet performs timeless classics and contemporary favorites.</p><p>This is a recurring event held every Friday evening from April through September. Complimentary for hotel guests; external visitors welcome with reservation.</p>",
+            "summary": "Experience an enchanting evening of live jazz on our rooftop terrace under the stars. Enjoy craft cocktails and light bites while our resident jazz quartet performs timeless classics and contemporary "
+          },
+          "eventDate": {
+            "timestamp": 1777078800
+          },
+          "endDate": {
+            "timestamp": 1777089600
+          },
+          "location": "Rooftop Terrace, 25th Floor",
+          "eventType": [
+            {
+              "id": "entertainment",
+              "name": "entertainment"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=800&q=80",
+            "alt": "Jazz on the Rooftop",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/spring-garden-party": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-spring-garden",
+          "title": "Annual Spring Garden Party",
+          "path": "/events/spring-garden-party",
+          "body": {
+            "processed": "<p>Celebrate the arrival of spring at our annual garden party held in our beautifully landscaped courtyard. Enjoy seasonal hors d'oeuvres, flowing champagne, floral arrangements by a renowned florist, and live acoustic music.</p><h2>Event Details</h2><ul><li>Welcome champagne reception</li><li>Gourmet stations featuring seasonal ingredients</li><li>Live acoustic entertainment</li><li>Garden tour with our head horticulturist</li><li>Complimentary floral arrangement workshop</li></ul>",
+            "summary": "Celebrate the arrival of spring at our annual garden party held in our beautifully landscaped courtyard. Enjoy seasonal hors d'oeuvres, flowing champagne, floral arrangements by a renowned florist, an"
+          },
+          "eventDate": {
+            "timestamp": 1778353200
+          },
+          "endDate": {
+            "timestamp": 1778367600
+          },
+          "location": "Grand Courtyard Gardens",
+          "eventType": [
+            {
+              "id": "seasonal",
+              "name": "seasonal"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+            "alt": "Annual Spring Garden Party",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/attractions/national-art-museum": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAttraction",
+          "id": "attraction-museum",
+          "title": "National Art Museum",
+          "path": "/attractions/national-art-museum",
+          "body": {
+            "processed": "<p>One of the country's premier art institutions, the National Art Museum houses an extraordinary collection spanning centuries of artistic achievement. From Renaissance masterpieces to contemporary installations, visitors can explore over 50 galleries of world-class art.</p><p>Hotel guests enjoy complimentary admission with their room key. Ask our concierge about guided tour options and current exhibitions.</p>",
+            "summary": "One of the country's premier art institutions, the National Art Museum houses an extraordinary collection spanning centuries of artistic achievement. From Renaissance masterpieces to contemporary inst"
+          },
+          "distance": "0.3 miles",
+          "websiteUrl": "https://nationalartmuseum.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=800&q=80",
+            "alt": "National Art Museum",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/attractions/botanical-gardens": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAttraction",
+          "id": "attraction-botanical",
+          "title": "City Botanical Gardens",
+          "path": "/attractions/botanical-gardens",
+          "body": {
+            "processed": "<p>Escape into 250 acres of stunning botanical beauty at the City Botanical Gardens. Featuring themed gardens from around the world, a tropical conservatory, and seasonal flower shows, it's a must-visit destination for nature lovers.</p><p>Just a short walk from the hotel, the gardens offer a peaceful retreat from the urban bustle. Guided nature walks are available daily.</p>",
+            "summary": "Escape into 250 acres of stunning botanical beauty at the City Botanical Gardens. Featuring themed gardens from around the world, a tropical conservatory, and seasonal flower shows, it's a must-visit "
+          },
+          "distance": "0.5 miles",
+          "websiteUrl": "https://citybotanical.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
+            "alt": "City Botanical Gardens",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/attractions/grand-theater": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeAttraction",
+          "id": "attraction-theater",
+          "title": "The Grand Theater",
+          "path": "/attractions/grand-theater",
+          "body": {
+            "processed": "<p>A landmark of performing arts, The Grand Theater hosts world-class ballet, opera, symphony performances, and Broadway shows throughout the year. The stunning Beaux-Arts building is an architectural marvel in its own right.</p><p>Our concierge can arrange premium seating and pre-show dining packages. VIP backstage tours available upon request for hotel guests.</p>",
+            "summary": "A landmark of performing arts, The Grand Theater hosts world-class ballet, opera, symphony performances, and Broadway shows throughout the year. The stunning Beaux-Arts building is an architectural ma"
+          },
+          "distance": "0.8 miles",
+          "websiteUrl": "https://grandtheater.example.com",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503095396549-807759245b35?w=800&q=80",
+            "alt": "The Grand Theater",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503095396549-807759245b35?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503095396549-807759245b35?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503095396549-807759245b35?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About The Grand Meridian Hotel",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Since 1929, The Grand Meridian Hotel has been a beacon of luxury hospitality in the heart of the city. What began as a grand vision by hotelier Alexander Meridian has evolved into one of the world's most celebrated hotel destinations.</p><h2>Our Heritage</h2><p>For nearly a century, we have welcomed heads of state, artists, celebrities, and discerning travelers from around the globe. Our commitment to exceptional service, timeless elegance, and warm hospitality remains as strong today as it was on the day we first opened our doors.</p><h2>Our Philosophy</h2><ul><li><strong>Excellence</strong> - Every detail matters, from the thread count of our linens to the garnish on every cocktail.</li><li><strong>Warmth</strong> - True luxury is felt in the genuine care and attention of our staff.</li><li><strong>Innovation</strong> - We honor our heritage while embracing modern comforts and sustainability.</li><li><strong>Community</strong> - We are proud stewards of our neighborhood and active supporters of local arts and culture.</li></ul><h2>Awards & Recognition</h2><p>The Grand Meridian has been recognized with Forbes Five-Star, AAA Five Diamond, and Cond&eacute; Nast Traveler Readers' Choice awards for over two decades.</p>",
+            "summary": "Since 1929, The Grand Meridian Hotel has been a beacon of luxury hospitality in the heart of the city. What began as a grand vision by hotelier Alexander Meridian has evolved into one of the world's m"
+          }
+        }
+      }
+    }
+  },
+  "/policies": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-policies",
+          "title": "Hotel Policies",
+          "path": "/policies",
+          "body": {
+            "processed": "<h2>Check-In & Check-Out</h2><p>Check-in time is 3:00 PM and check-out time is 12:00 PM. Early check-in and late check-out may be available upon request, subject to availability.</p><h2>Cancellation Policy</h2><p>Reservations may be cancelled up to 48 hours prior to the scheduled arrival date without penalty. Cancellations made within 48 hours of arrival will be charged one night's room rate.</p><h2>Pet Policy</h2><p>We welcome well-behaved dogs under 30 pounds. A pet fee of $75 per night applies. Our Pet Concierge can arrange special amenities including beds, bowls, treats, and dog-walking services.</p><h2>Parking</h2><p>Valet parking is available for $55 per night. Self-parking in our adjacent garage is $35 per night. Electric vehicle charging stations are available at no additional cost.</p>",
+            "summary": "Check-In & Check-OutCheck-in time is 3:00 PM and check-out time is 12:00 PM. Early check-in and late check-out may be available upon request, subject to availability.Cancellation PolicyReservations ma"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-wine-dinner",
+          "title": "Wine Pairing Dinner with Chef Isabella",
+          "path": "/events/wine-pairing-dinner",
+          "body": {
+            "processed": "<p>Join us for an exclusive five-course wine pairing dinner curated by Chef Isabella Moreno and our sommelier. Each course is thoughtfully paired with selections from renowned vineyards around the world.</p><h2>Menu Highlights</h2><ul><li>Amuse-bouche with sparkling wine</li><li>Pan-seared scallops with Chablis</li><li>Wagyu beef tenderloin with Barolo</li><li>Artisan cheese selection with Port</li><li>Chocolate souffl&eacute; with dessert wine</li></ul>",
+            "summary": "Join us for an exclusive five-course wine pairing dinner curated by Chef Isabella Moreno and our sommelier. Each course is thoughtfully paired with selections from renowned vineyards around the world."
+          },
+          "eventDate": {
+            "timestamp": 1776556800
+          },
+          "endDate": {
+            "timestamp": 1776567600
+          },
+          "location": "The Meridian Private Dining Room",
+          "eventType": [
+            {
+              "id": "dining",
+              "name": "dining"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80",
+            "alt": "Wine Pairing Dinner",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-jazz-night",
+          "title": "Jazz on the Rooftop",
+          "path": "/events/jazz-on-the-rooftop",
+          "body": {
+            "processed": "<p>Experience an enchanting evening of live jazz on our rooftop terrace under the stars. Enjoy craft cocktails and light bites while our resident jazz quartet performs timeless classics and contemporary favorites.</p><p>This is a recurring event held every Friday evening from April through September. Complimentary for hotel guests; external visitors welcome with reservation.</p>",
+            "summary": "Experience an enchanting evening of live jazz on our rooftop terrace under the stars. Enjoy craft cocktails and light bites while our resident jazz quartet performs timeless classics and contemporary "
+          },
+          "eventDate": {
+            "timestamp": 1777078800
+          },
+          "endDate": {
+            "timestamp": 1777089600
+          },
+          "location": "Rooftop Terrace, 25th Floor",
+          "eventType": [
+            {
+              "id": "entertainment",
+              "name": "entertainment"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=800&q=80",
+            "alt": "Jazz on the Rooftop",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-spring-garden",
+          "title": "Annual Spring Garden Party",
+          "path": "/events/spring-garden-party",
+          "body": {
+            "processed": "<p>Celebrate the arrival of spring at our annual garden party held in our beautifully landscaped courtyard. Enjoy seasonal hors d'oeuvres, flowing champagne, floral arrangements by a renowned florist, and live acoustic music.</p><h2>Event Details</h2><ul><li>Welcome champagne reception</li><li>Gourmet stations featuring seasonal ingredients</li><li>Live acoustic entertainment</li><li>Garden tour with our head horticulturist</li><li>Complimentary floral arrangement workshop</li></ul>",
+            "summary": "Celebrate the arrival of spring at our annual garden party held in our beautifully landscaped courtyard. Enjoy seasonal hors d'oeuvres, flowing champagne, floral arrangements by a renowned florist, an"
+          },
+          "eventDate": {
+            "timestamp": 1778353200
+          },
+          "endDate": {
+            "timestamp": 1778367600
+          },
+          "location": "Grand Courtyard Gardens",
+          "eventType": [
+            {
+              "id": "seasonal",
+              "name": "seasonal"
+            }
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+            "alt": "Annual Spring Garden Party",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

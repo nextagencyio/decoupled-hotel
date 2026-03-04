@@ -1,0 +1,185 @@
+{
+  "data": {
+    "nodeAmenities": {
+      "__typename": "NodeAmenityConnection",
+      "nodes": [
+        {
+          "__typename": "NodeAmenity",
+          "id": "amenity-spa",
+          "title": "Spa & Wellness Center",
+          "path": "/amenities/spa-wellness-center",
+          "body": {
+            "processed": "<p>Immerse yourself in relaxation at our award-winning spa. Offering a full range of treatments inspired by ancient healing traditions and modern wellness techniques, our spa is a sanctuary for mind, body, and spirit.</p><h2>Treatments</h2><ul><li>Swedish and deep tissue massage</li><li>Aromatherapy and hot stone treatments</li><li>Facials and skin care rituals</li><li>Couples spa experiences</li></ul>",
+            "summary": "Immerse yourself in relaxation at our award-winning spa. Offering a full range of treatments inspired by ancient healing traditions and modern wellness techniques, our spa is a sanctuary for mind, bod"
+          },
+          "amenityCategory": [
+            {
+              "id": "wellness",
+              "name": "wellness"
+            }
+          ],
+          "hours": "7:00 AM - 9:00 PM Daily",
+          "location": "Lower Level, West Wing",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80",
+            "alt": "Spa & Wellness Center",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeAmenity",
+          "id": "amenity-pool",
+          "title": "Rooftop Infinity Pool",
+          "path": "/amenities/rooftop-pool",
+          "body": {
+            "processed": "<p>Take a dip in our stunning rooftop infinity pool with breathtaking panoramic views of the city skyline. The heated pool area includes private cabanas, poolside dining service, and a dedicated cocktail bar.</p><h2>Pool Features</h2><ul><li>Heated infinity-edge pool</li><li>Private cabanas available for rent</li><li>Poolside food and beverage service</li><li>Complimentary towels and sunscreen</li></ul>",
+            "summary": "Take a dip in our stunning rooftop infinity pool with breathtaking panoramic views of the city skyline. The heated pool area includes private cabanas, poolside dining service, and a dedicated cocktail"
+          },
+          "amenityCategory": [
+            {
+              "id": "recreation",
+              "name": "recreation"
+            }
+          ],
+          "hours": "6:00 AM - 10:00 PM Daily",
+          "location": "Rooftop, 25th Floor",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80",
+            "alt": "Rooftop Infinity Pool",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeAmenity",
+          "id": "amenity-restaurant",
+          "title": "The Meridian Restaurant",
+          "path": "/amenities/meridian-restaurant",
+          "body": {
+            "processed": "<p>Experience culinary excellence at The Meridian, our signature restaurant featuring farm-to-table cuisine crafted by award-winning Chef Isabella Moreno. The elegant dining room provides the perfect setting for an unforgettable meal.</p><h2>Dining Experiences</h2><ul><li>Seasonal tasting menus</li><li>Extensive wine collection</li><li>Private dining rooms available</li><li>Weekend brunch with live music</li></ul>",
+            "summary": "Experience culinary excellence at The Meridian, our signature restaurant featuring farm-to-table cuisine crafted by award-winning Chef Isabella Moreno. The elegant dining room provides the perfect set"
+          },
+          "amenityCategory": [
+            {
+              "id": "dining",
+              "name": "dining"
+            }
+          ],
+          "hours": "Breakfast 7-10 AM, Lunch 12-2 PM, Dinner 6-10 PM",
+          "location": "Ground Floor, Main Lobby",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+            "alt": "The Meridian Restaurant",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeAmenity",
+          "id": "amenity-fitness",
+          "title": "Fitness Center",
+          "path": "/amenities/fitness-center",
+          "body": {
+            "processed": "<p>Stay active during your stay at our state-of-the-art fitness center. Equipped with the latest cardio and strength training equipment, along with a dedicated yoga studio and personal training services.</p><h2>Facilities</h2><ul><li>Technogym cardio and strength equipment</li><li>Dedicated yoga and pilates studio</li><li>Personal training sessions</li><li>Complimentary fitness classes</li></ul>",
+            "summary": "Stay active during your stay at our state-of-the-art fitness center. Equipped with the latest cardio and strength training equipment, along with a dedicated yoga studio and personal training services."
+          },
+          "amenityCategory": [
+            {
+              "id": "wellness",
+              "name": "wellness"
+            }
+          ],
+          "hours": "24 Hours",
+          "location": "Lower Level, East Wing",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
+            "alt": "Fitness Center",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
