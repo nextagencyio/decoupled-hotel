@@ -137,51 +137,6 @@
               }
             ]
           }
-        },
-        {
-          "__typename": "NodeRoom",
-          "id": "room-classic-double",
-          "title": "Classic Double Room",
-          "path": "/rooms/classic-double",
-          "body": {
-            "processed": "<p>Our Classic Double Room provides a comfortable and welcoming retreat with all the essential amenities. Featuring two queen-size beds, it is ideal for families or friends traveling together.</p><h2>Room Features</h2><ul><li>Two queen-size beds</li><li>42-inch smart TV</li><li>Complimentary Wi-Fi</li><li>En-suite bathroom with bathtub</li><li>In-room safe and minibar</li></ul>",
-            "summary": "Our Classic Double Room provides a comfortable and welcoming retreat with all the essential amenities. Featuring two queen-size beds, it is ideal for families or friends traveling together.Room Featur"
-          },
-          "roomType": [
-            {
-              "id": "standard",
-              "name": "standard"
-            }
-          ],
-          "pricePerNight": "From $249",
-          "capacity": 4,
-          "sqft": 400,
-          "image": {
-            "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
-            "alt": "Classic Double Room",
-            "width": 800,
-            "height": 533,
-            "variations": [
-              {
-                "name": "LARGE",
-                "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
-                "width": 800,
-                "height": 533
-              },
-              {
-                "name": "MEDIUM",
-                "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=480&q=80",
-                "width": 480,
-                "height": 320
-              },
-              {
-                "name": "THUMBNAIL",
-                "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=200&q=80",
-                "width": 200,
-                "height": 133
-              }
-            ]
-          }
         }
       ]
     }

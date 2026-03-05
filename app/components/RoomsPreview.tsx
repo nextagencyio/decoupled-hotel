@@ -18,6 +18,7 @@ interface FeaturedRoomsData {
 export default function RoomsPreview({ homepageContent }: RoomsPreviewProps) {
   const { data, loading, error } = useQuery<FeaturedRoomsData>(GET_FEATURED_ROOMS)
   const rooms = data?.nodeRooms?.nodes || []
+  const featuredRooms = rooms.slice(0, 3)
   const sectionTitle = homepageContent?.featuredRoomsTitle || 'Our Finest Accommodations'
 
   if (loading) {
@@ -40,7 +41,7 @@ export default function RoomsPreview({ homepageContent }: RoomsPreviewProps) {
     )
   }
 
-  if (error || rooms.length === 0) return null
+  if (error || featuredRooms.length === 0) return null
 
   return (
     <section className="py-16 md:py-20 bg-slate-950">
@@ -51,7 +52,7 @@ export default function RoomsPreview({ homepageContent }: RoomsPreviewProps) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {rooms.map((room) => (
+          {featuredRooms.map((room) => (
             <Link key={room.id} href={room.path || `/rooms/${room.id}`} className="group bg-slate-900 border border-slate-800 rounded-xl hover:border-accent-500/30 hover:shadow-lg hover:shadow-accent-500/5 transition-all duration-300 overflow-hidden">
               <div className="relative h-48 bg-slate-800">
                 {room.image?.url ? (
