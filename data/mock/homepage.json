@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-rooms",
               "title": "",
-              "number": "200+",
+              "number": "200+", "value": "200+",
               "label": "Luxury Rooms & Suites"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-restaurants",
               "title": "",
-              "number": "5",
+              "number": "5", "value": "5",
               "label": "Restaurants & Bars"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-years",
               "title": "",
-              "number": "95+",
+              "number": "95+", "value": "95+",
               "label": "Years of Excellence"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-rating",
               "title": "",
-              "number": "4.9",
+              "number": "4.9", "value": "4.9",
               "label": "Guest Rating"
             }
           ],
