@@ -24,7 +24,7 @@ interface AmenityByPathData {
 async function getAmenity(path: string): Promise<DrupalAmenity | null> {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_AMENITY_BY_PATH, { path })
+    const data = await client.raw(GET_AMENITY_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching amenity:', error)
