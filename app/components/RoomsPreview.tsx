@@ -1,8 +1,10 @@
 'use client'
 
 import Link from 'next/link'
-import { useQuery } from '@apollo/client'
+import { useQuery, gql as apolloGql } from '@apollo/client'
 import { GET_FEATURED_ROOMS } from '@/lib/queries'
+
+const FEATURED_ROOMS_DOC = apolloGql(GET_FEATURED_ROOMS)
 import { DrupalHomepage, DrupalRoom } from '@/lib/types'
 import { Users, Maximize, ArrowRight, BedDouble } from 'lucide-react'
 import ResponsiveImage from './ResponsiveImage'
@@ -16,7 +18,7 @@ interface FeaturedRoomsData {
 }
 
 export default function RoomsPreview({ homepageContent }: RoomsPreviewProps) {
-  const { data, loading, error } = useQuery<FeaturedRoomsData>(GET_FEATURED_ROOMS)
+  const { data, loading, error } = useQuery<FeaturedRoomsData>(FEATURED_ROOMS_DOC)
   const rooms = data?.nodeRooms?.nodes || []
   const featuredRooms = rooms.slice(0, 3)
   const sectionTitle = homepageContent?.featuredRoomsTitle || 'Our Finest Accommodations'

@@ -6,6 +6,11 @@
 
 # Testing
 /coverage
+/test-results/
+/playwright-report/
+
+# Generated schema (re-generated via npm run sync-schema)
+/schema/
 
 # Next.js
 /.next/
